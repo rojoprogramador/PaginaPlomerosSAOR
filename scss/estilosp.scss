@@ -1,0 +1,112 @@
+//----------------------
+ //    patron de colores 
+//----------------------
+$texto:#003669;
+$titulos:#f4f8ff;
+$principal:rgb(72, 153, 239);
+$secundario:rgb(255, 255, 255);
+$secundariofondo:rgb(211, 243, 255);
+
+//--------------------------
+// sobreescribiendo los estilos bootstrap
+//--------------------------
+
+
+html{
+  font-size: 13px;
+ 
+ }
+ h1,
+ h4
+ {
+color: $titulos;
+
+ }
+.cover {
+  height: 400px;
+  
+  background-image: url("../imagenesplo/fondo.jpg");
+  color:#FFFFF0;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 254, 254);
+  background-blend-mode: darken;
+}
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+.card {
+border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba (0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.card-title {
+  min-height: 3rem;
+}
+.card-text {
+  min-height: 10rem;
+}
+.product-stripe,
+.slider {
+  overflow-x: scroll;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.stripe-container,
+.slider-container {
+  display: flex;
+}
+.stripe-container .card {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 1rem;}
+
+.bg-primary{
+background-color: $principal !important;
+}
+.text-primary{
+color:$principal !important ;
+}
+.btn-primary{
+background-color: $principal !important ;
+background-color: darken($principal,20%) !important;
+}
+
+.btn-primary:hover,.btn-primary:focus {
+        background-color: darken($principal,10%) !important;
+ }
+ .btn-primary:active{
+     background-color: darken($principal,20%) !important;
+     border-color:darken($principal,30%) !important ;
+ }
+.btn-primary:focus{
+box-shadow: 0 0 0 0.2rem rgba($principal,.5) !important;
+}
+//--------------------------
+// estilos css mi portafolio
+//--------------------------
+   body{
+color:$texto ;
+font-family: 'Open Sans', sans-serif;
+background-image: url("../imagenesplo/watercolor-1321802.jpg") ;
+
+
+   }
+.card:hover{
+    box-shadow:0 0 10px blue($color: #000000);
+}
+@media(min-width:768px){
+  html{
+  font-size: 16px;
+  
+  }
+  
+  }
+  h3{
+    font-size: 24px;
+  }
+ //-----------------------
+// estilos barra redes sociales
+//--------------------------
+
