@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="image/x-icon" href="../PaginaPlomeros/imagenesplo/favicondef.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="../PaginaPlomeros/imagenesplo/favicon-32x32.png">
   <!-- Archivos  Bootstrap4 CSS -->
   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Archivos CSS personalizados -->
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="../PaginaPlomeros/css/style.css">
   <!-- estilos whatsapp -->
   <link rel="stylesheet" href="css/stylewhatsapp.css">
+  
   <title>Plomeros SAOR</title>
 </head>
 
@@ -26,24 +27,12 @@
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 <!-- fin boton flotante whatsapp -->
-  <!--barra tira de redes sociales -->
   
-  <div class="social-body pl-3 " >
-    <ul>
-      <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      <li class="whatsapp"><a href="https://wa.me/message/C3JAMFA6M5YJK1" target="_blank"><i class="fa fa-whatsapp"></i></a ></li>
-      <!-- <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
-      <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-      <!--<li class="pinterest"><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>-->
-    </ul>
-  </div>
-<!--fin barra tira de redes sociales -->
-
   <!--Barra navegacion-->
-  <nav class="navbar fixed-top navbar-brand navbar-expand-md  bg-light">
+  <nav class="navbar fixed-top  navbar-light navbar-expand-md  bg-light  ">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../PaginaPlomeros/imagenesplo/logoPlomeros.png" alt="" width="200PX" height="auto"> </a>
+      <a class="navbar-brand" href="#info">
+        <img src="../PaginaPlomeros/imagenesplo/logoPlomerosDef.png" alt="Logo plomeros SAOR" width="200PX" height="auto"> </a>
 
       <button type="button" class="navbar-toggler  " data-toggle="collapse" data-target="#menu-principal"
         aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menu navegacion">
@@ -51,35 +40,47 @@
       </button>
       <div class="collapse navbar-collapse" id="menu-principal">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Inicio</a>
+          <li class="nav-item  ">
+            <a class="nav-link active text-info" aria-current="page" href="#fondoini"> <i class="fa fa-home fa-lg mr-2"></i>Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#stripe">Servicios</a>
+            <a class="nav-link text-info " href="#stripe"><i class="fa fa-wrench fa-lg mr-2"></i>Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#mapa">Contacto</a>
+            <a class="nav-link text-info" href="#mapa"> <i class="fa fa-address-book fa-lg mr-2"></i>Contacto</a>
           </li>
         </ul>
   </nav>
 <!--imagen tiulo fondo-->
-<section class="fondo py-4">
+<section class="fondo py-4" id="fondoini">
 <div class=" container col-12">
 <div
   class="titulos cover d-flex justify-content-center align-items-center flex-column"
 >
-  <h1 class="mb-0 display-3 font-weight-bold "> Plomeros SAOR </h1>
+  <h1 class="mb-0 display-3 font-weight-bold text-center   ">  Plomeros SAOR </h1>
   <h4> <strong class="titulo font-weight-bold ">Servicios Locativos, las 24 horas</strong> </h4> 
-  <a class="btn btn-info  " href="conoce mas.html" role="button" target="_blank"
-    >conoce mas</a
+<a class="btn btn-info   " href="tel:+573185922585" role="button" target="_blank"
+    > <i class="fa fa-phone fa-lg mr-3"></i> Llamanos Ahora</a
   >
 </div>
 </div>
 </section>
+<!--barra tira de redes sociales -->
+  
+<div class="social-body pl-3 my-auto " >
+  <ul>
+    <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li class="whatsapp"><a href="https://wa.me/message/C3JAMFA6M5YJK1" target="_blank"><i class="fa fa-whatsapp"></i></a ></li>
+         <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+</div>
+<!--fin barra tira de redes sociales -->
+
   <!--tira de servicios  -->
-<section>
+<section id="servicios">
   <div class="container col-10 border-top  border-dark  mt-5 mb-5 text-center " id="stripe">
 <h3 class="display-4 font-weight-bold text-center pb-4 ">Nuestros Servicios</h3>
+
     <div class="product-stripe ">
       <div class="stripe-container ">
         <div class="card">
@@ -88,7 +89,7 @@
             title="geofono"
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2Frsz_img-20180719-wa0022.jpg?v=1626894314778);
+              background-image: url(../PaginaPlomeros/imagenesplo/GeofonoDef.jpg);
             "
           ></div>
           <div class="card-body">
@@ -97,20 +98,22 @@
               <!--botones solicitar y leer mas    -->
               <div>
                 <div class="flex-fill mr-2"></div>
-                <p>
-                  <a class="btn btn-outline-info btn-block" data-toggle="collapse" href="#collapseinfo1" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                <p >
+                  <a class="btn btn-outline-info btn-block" data-toggle="collapse" href="#collapseinfo1" aria-expanded="false" 
+                  aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas        </a>
                   <a
-                  class="btn btn-primary btn-block "
+                  class="btn btn-primary btn-block"
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
-                </p>
+                </p >
                 <div class="collapse" id="collapseinfo1">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                   Una fuga de agua es una pérdida no deseada de agua que normalmente  se da por agujeros o poros que se producen en una tubería y no son visibles a simple vista.Nosotros somos 
+                  <strong>especialistas en detección y arreglo de filtraciones y humedades</strong>, con modernos equipos de escaneo,minimizando así los daños y costos de este servicio.
                   </div>
                 </div>
 
@@ -123,7 +126,7 @@
             title="llaves botando agua"
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2F20190525_104452.jpg?v=1626822295144);
+              background-image: url(../PaginaPlomeros/imagenesplo/hidroDef.jpg);
             "
           ></div>
           <div class="card-body">
@@ -135,19 +138,22 @@
               <div>
                 <div class="flex-fill mr-2"></div>
                 <p>
-                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo2" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse"
+                   href="#collapseinfo2" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas</a>
                   <a
-                  class="btn btn-primary btn-block"
+                  class="btn btn-primary btn-block "
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
                 </p>
                 <div class="collapse" id="collapseinfo2">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                 mantenimiento preventivo de sistemas hidráulicos de agua potable,
+                  reparamos sistemas básicos de presión de agua como el <strong>HIDROFLO</strong>
+                   y sistemas más complejos de motobombas de agua.
                   </div>
                 </div>
 
@@ -160,29 +166,32 @@
             title="Sifon de aguas lluvias tapado"
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2F20190312_111329.jpg?v=1626822298059);
+              background-image: url(../PaginaPlomeros/imagenesplo/destapeDef1.jpg);
             "
           ></div>
-          <div class="card-body">
+          <div class="card-body" id="destape" >
             <h5 class="card-title">Mantenimiento y destape de cañerias</h5>
             <form action="">
                <!--botones solicitar y leer mas    -->
               <div>
                 <div class="flex-fill mr-2"></div>
                 <p>
-                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo3" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo3" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas        </a>
                   <a
-                  class="btn btn-primary btn-block"
+                  class="btn btn-primary btn-block "
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
                 </p>
                 <div class="collapse" id="collapseinfo3">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                    <strong>Sin romper</strong>contamos con la experiencia y la herramienta indicada; como 
+                     sondas eléctricas,Bombas de presion continua,Equipos de varillas e hidrolavadoras para <strong>tuberias principales y residenciales</strong>,
+                     que nos permiten quitar cualquier elemento que esté 
+                    obstruyendo la cañería o el paso normal de la aguas negras.
                   </div>
                 </div>
 
@@ -195,29 +204,34 @@
             title="costruccion de cajas de aguas negras"
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2FIMG_20210325_154821_1.jpg?v=1626822294046);
+              background-image: url(../PaginaPlomeros/imagenesplo/construcioncajasDef.jpg);
             "
           ></div>
           <div class="card-body">
-            <h5 class="card-title">Remodelacion de cañerias</h5>
+            <h5 class="card-title">Remodelacion y diseño  de cañerias</h5>
             <form action="">
                <!--botones solicitar y leer mas    -->
               <div>
                 <div class="flex-fill mr-2"></div>
                 <p>
-                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo4" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" 
+                  href="#collapseinfo4" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas        </a>
                   <a
-                  class="btn btn-primary btn-block"
+                  class="btn btn-primary btn-block "
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
                 </p>
                 <div class="collapse" id="collapseinfo4">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                    Una de las reformas más comunes es la de <Strong>cambiar las cañerías</Strong>de la vivienda. 
+                    Es un proceso que puede parecer muy difícil de acometer, pero que en muchos casos se 
+                    convierte en una extrema necesidad. Muchas tuberías se han deteriorado con el tiempo y tienden derrumbarse 
+                    causando humedades y deteriorando los simientos de la vivienda  
+                    contar con una buena Cañeria  garantiza una mayor estabilidad.
                   </div>
                 </div>
 
@@ -230,7 +244,7 @@
             title="techo de tejas"
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2Frsz_img_20210217_163031.jpg?v=1626893638708);
+              background-image: url(../PaginaPlomeros/imagenesplo/techosDef1.jpg);
             "
           ></div>
           <div class="card-body">
@@ -240,19 +254,25 @@
               <div>
                 <div class="flex-fill mr-2"></div>
                 <p>
-                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo5" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo5" 
+                  aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas        </a>
                   <a
-                  class="btn btn-primary btn-block"
+                  class="btn btn-primary btn-block "
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
                 </p>
                 <div class="collapse" id="collapseinfo5">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                    El techo, es uno de las estructuras que no revisamos ni le prestamos atención, pero este
+                    es parte fundamental toda vivienda y para  el bienestar de sus habitantes y depende que este en buen estado.
+                     Es importante saber, de qué materiales está hecho su techo,dependiendo de ello 
+                     tener distintos cuidados y precauciones, 
+                      y así mismo <strong>realizar su respectivo mantenimiento </strong> 
                   </div>
                 </div>
 
@@ -265,7 +285,7 @@
             title="remodelacion de baño "
             class="cover cover-small"
             style="
-              background-image: url(https://cdn.glitch.com/cd849af2-d9bf-48e2-ab40-4574210cb5d9%2FIMG_20210525_154259167.jpg?v=1626822292712);
+              background-image: url(../PaginaPlomeros/imagenesplo/RemodelacionDef.jpg);
             "
           ></div>
           <div class="card-body">
@@ -275,19 +295,25 @@
               <div>
                 <div class="flex-fill mr-2"></div>
                 <p>
-                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo6" aria-expanded="false" aria-controls="collapseExample"> Leer mas        </a>
+                  <a class="btn btn-outline-info  btn-block" data-toggle="collapse" href="#collapseinfo6"
+                   aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-info-circle mr-2"></i>Leer mas        </a>
                   <a
-                  class="btn btn-primary btn-block"
+                  class="btn btn-primary btn-block "
                   href="https://wa.me/message/C3JAMFA6M5YJK1"
                   role="button"
                   target="_blank"
-                  >solicitar</a
+                  ><i class="fa fa-whatsapp mr-2"></i>solicitar</a
                   
                 >
                 </p>
                 <div class="collapse " id="collapseinfo6">
-                  <div class="card card-body text-center ">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  <div class="card card-body w-auto">
+                    Cada cierto tiempo, hacer cambios en el ambiente de nuestro baño  se vuelve una necesidad para mejorarlo,
+                    y modernizarlo; todo un proceso!!, demanda cuidado, planeación y tiempo.
+                      Y bien sea que solo se trate de detalles como cambio de colores, recuperar los pisos,
+                       nuevos accesorios o muebles, cambiar el estilo decorativo;
+                        la intención de remodelar, es siempre brindar armonía, generar confort y proporcionar
+                         alegría a toda la familia. <strong>Nostros te ofrecemos nuestros servicios, Dejanos atenderte.</strong>
                   </div>
                 </div>
 
@@ -303,31 +329,29 @@
 
 <!--seccion slider imagenes con info  -->
 <section class="" >
-  <div class="bd-example container col-12 ">
+    <div class="bd-example container col-12 ">
+      <h3 class="display-4 font-weight-bold text-center pb-4  border-top border-dark ">¡Mas de lo que hacemos!</h3>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block w-100 bg-warning " src="..//PaginaPlomeros/imagenesplo/Alcantarilladoresidencialimglarga.jpg" alt="First slide">
+          <img class="d-block w-100 bg-warning " src="..//PaginaPlomeros/imagenesplo/lavesygriferiasDef.png" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../PaginaPlomeros/imagenesplo/imagenlarga2.jpg" alt="Second slide">
+        <div class="carousel-item  " id="serviciosHumedades">
+          <img class="d-block w-100" src="../PaginaPlomeros/imagenesplo/humedadesDef.png" alt="Second slide">
           <div class="carousel-caption d-none d-md-block">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+           </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../PaginaPlomeros/imagenesplo/imagenlarga2.jpg" alt="Second slide">
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="../PaginaPlomeros/imagenesplo/AntesDef.png" alt=" slide">
           <div class="carousel-caption d-none d-md-block">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+            </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -339,6 +363,7 @@
         <span class="sr-only">Next</span>
       </a>
       
+      
     </div>
   </div>
 </section>
@@ -348,19 +373,26 @@
 <section id="mapa" class="mapa py-5 ">
 <div class="container ">
 <div class="row tex-center">
-  <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9  border" >
+  
+  <div class="col-12 col-md-4 py-5 px-5 text-md-center  ">
+     <h3 class=" font-weight-bold text-center "></i>Aqui nos encuentras!!</h3>
+     <p class="font-weight-bold ">
+      <i class="fa fa-home fa-lg  mr-1 "></i><strong>Direccion:</strong>Cll 28 # 27-21
+     </p> 
+    <p class="font-weight-bold">
+      <a href="tel:+573007750833"><strong><i class="fa fa-mobile fa-lg mr-2"></i>3007750833</strong></a>
+     </p> 
+     <p>
+      <i class="fa fa-phone fa-lg mr-2"></i>12345
+     </p> 
+  </div>
+  <div class="col-12 col-md-8 embed-responsive embed-responsive-16by9  border" >
     <iframe
             class=" embed-responsive-item "
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982
             .7738399413474!2d-76.52085708568953!3d3.4052536975213403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a111f89fde6b%3A0x152e5e9706a32f88!2sPlomeros%20SAOR!5e0!3m2!1ses-419!2sco!4v1626898628426!5m2!1ses-419!2sco"
             loading="lazy"
           ></iframe>
-  </div>
-  <div class="col-12 col-md-6 py-5 px-5 justify-content-center align-content-center align-items-center ">
-     <h3 class=" font-weight-bold "> Aqui nos encuentras!!</h3>
-    <p class=" font-weight-bold  "> <strong>Direccion:</strong> Cll 28 # 27-21</p>
-    <p class=" font-weight-bold " > <strong>Cel:</strong>  3185922585 </p>
-    <p class=" font-weight-bold"> Tel: 123445 </p>
   </div>
 </div>
 
@@ -370,10 +402,41 @@
 <!-- Fin Ubicacion mapa -->
 
 <!--seccion footer -->
-<footer class="pie de pagina py-5  " ></footer>
-<div class="container  text-center  bg-primary text-light col-12 ">
-  <p class=" m-0 py-4  " > Copyright © 2022 todos los derechos reservados </p>
-</div>
+<footer class="pie de pagina py-5 bg-primary text-white pt-5 pb-4  " id="info" >
+  <div class="container  text-center text-md-left ">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3  ">
+      
+        <h5 class="text-uppercase mb-3 font-weight-bold text-white text-center ">Plomeros SAOR</h5>
+        <p class="text-center">Somos una microempresa dedicada a prestar servicios
+           locativos de calidad,brindando al cliente mayor satisfaccion con personal calificado ,experimentado y responsable 
+          </p>
+      </div>
+      <div class="col-md-5 col-lg-5 col-xl-3 mx-auto mt-3 text-center ">
+        <h5 class="text-uppercase mb-3 font-weight-bold text-white ">Servicios </h5>
+        <p>
+          <a href="#servicios" class="text-white" style="text-decoration: none;"><li>Destape de cañerias</li></a>
+          <a href="#servicios" class="text-white" style="text-decoration: none;"><li>Deteccion de fugas</li></a>
+          <a href="#serviciosHumedades" class="text-white" style="text-decoration: none;"><li>Arreglo de humdedades</li></a>
+          <a href="#servicios" class="text-white" style="text-decoration: none;"><li>Remodelacion de baños</li></a>
+          <a href="#servicios" class="text-white" style="text-decoration: none;"><li>Intalacion de griferias</li></a>
+          <a href="#servicios" class="text-white" style="text-decoration: none;"><li>instalacion de filtros de agua </li></a>
+        </p>
+      </div>
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+<h5 class="text-uppercase mb-3 font-weight-bold text-white ">Contacto</h5>
+ <p>
+  <a href=""><i class="fa fa-facebook fa-lg mr-2 my-2"></i>Plomeros SAOR</a></p> 
+    
+ <p>
+  <a href="https://wa.me/message/C3JAMFA6M5YJK1" target="_blank"><i class="fa fa-whatsapp fa-lg mr-2 my-2"></i>3185922585</a></p> 
+  <p>
+   <a href="#"><i class="fa fa-instagram fa-lg mr-2 my-2"></i>@plomerosSAOR</a></p> 
+      </div>
+    </div>
+    </div>
+</footer>
+
 <!--fin seccion footer -->
 
   
